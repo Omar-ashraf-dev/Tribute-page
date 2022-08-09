@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+/*    Top Bar    */
+.navbar {
+    background-color: rgb(58, 58, 58);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.navbar a {
+    text-decoration: none;
+    float: left;
+    color: rgb(106, 122, 214);
+    padding: 14px 16px;
+    font-size: 25px;
+    text-align: center;
+}
+.navbar a:hover {
+    color: rgb(58, 58, 58);
+    background-color: rgb(106, 122, 214);
+}
+
+
+/*    The whole page    */
+#main {
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    background-color:rgb(58, 58, 58, 0.3);
+    border-radius: 10px;
+}
+
+
+/*    Title    */
+#title {
+    text-align: center;
+    padding-top: 10px;
+}
+#name {
+    font-size: 50px;
+}
+#nickname {
+    font-weight: normal;
+}
+
+
+/*    Image    */
+#img-div {
+    text-align: center;
+}
+#image {
+    width: 80%;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+/*    Caption    */
+#img-caption {
+    font-size: 20px;
+}
+
+
+/*    Tribute informations    */
+#tribute-info {
+    text-align: center;
+    margin-top: 60px;
+}
+#info {
+    margin-top: 30px;
+    line-height: 30px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+/*    More info    */
+#tribute-link {
+    text-align: center;
+    margin-top: 60px;
+}
+
